@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>滚雷平行进口车</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,
+		 user-scalable=no">
+		<link rel="shortcut icon" type="img/x-icon" href="img/hjjmnb.jpg">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/base.css" rel="stylesheet">
+		<link href="css/index.css" rel="stylesheet">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	
+	</head>
+	<body>
+		<nav class="nav-tabs navbar-default navbar  navbar-fixed-top">
+			<div class="container">
+				<div class=" navbar-header" id="head_logo">
+					<a href="#" class="navbar-brand">
+						<img src="img/newLogoBlack.png" alt="" width="90%" height="150%">
+						
+					</a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+				</div>
+				 <div id="navbar-collapse" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav nav-pills navbar-right" id="head_nav">
+						<li><a href="index.html">首页</a></li>
+						<li><a href="choose.html">选车</a></li>
+						<li class="buy_car"><a href="buycar.html">抢购</a>
+							<div class="nav_icon"></div>
+						</li>
+						<li><a href="seaside.html">海外仓</a></li>
+						<li><a href="peijian.html">零配件</a></li>
+						<li class="dropdown">
+							<a href="#" data-toggle='dropdown'>商务合作<span class="caret"></span></a>
+							<ul class="dropdown-menu dropdown-menu-right" id="head_dropdown">
+								<li class="text-center"><a href="ebook.html">汽车之家</a></li>
+								<li class="text-center"><a href="car.html">车之友</a></li>
+							</ul>
+						</li>
+						<li><a href="mobile.html">手机端</a></li>
+						<li>
+						<div class="" id="head_login">
+							<a href="#" data-toggle='modal' data-target='#myModal'><span>注册</span></a>
+							
+							<a href="#" data-toggle='modal' data-target='#myModal'><span>登录</span></a>
+						</div>
+						</li>
+					</ul>
+				
+				
+			  </div>
+			</div>
+		</nav>
+		<!--模态框-->
+		<div class="modal fade" id="myModal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header navbar-default">
+						<button class="close" data-dismiss='modal'>
+							<span>&times;</span>
+						</button>
+						<p class="text-center h3 text-danger ">会员登录</p>
+					</div>
+					<div class="modal-body">
+						<div class="row text-left">
+						  <div class="col-md-6">
+							<label class="h4 ml25 text-danger">用户名</label>
+							<input type="text" class="input-sm ml10" placeholder="请输入您的用户名">
+						  </div>
+						  <div class="col-md-6">
+							<label class="h4 text-danger">密码</label>
+							<input type="password" class="input-sm ml10" placeholder="请输入您的密码">
+						  </div>
+						</div>	
+					</div>
+					<div class="modal-footer">
+						<div class="row">
+							<div class="col-md-5 col-md-offset-2">
+							   <button class="btn btn-danger h4">
+								登&nbsp;录
+							   </button>
+							</div>  
+							<div class="col-md-3 text-center col-md-offset-2">
+							   <a href="javascript:;" style="border-bottom:1px dashed crimson;padding-bottom:3px;font-size:12px;color: grey;">忘记密码</a>
+							</div>
+						</div>
+						<div class="row text-right mt20">
+							<div class="col-md-11 text-info">
+							  未注册滚雷进口车帐号的手机号，登录时将自动注册滚雷进口 车帐号，且代表您已同意
+							</div>
+						</div>
+						<div class="row text-center ">
+						     <div class="col-md-4 text-info">
+							     滚雷 进口车使用协议。
+							 </div>
+						</div>	 
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--导航结束-->
+		<!---->
+		<div id="index_banner">
+			
+			<div id="myCarousel" class="carousel slide  ">
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+				</ol>   
+			
+			  <div class="carousel-inner  bannerImg">
+				<div class="item active" id="banner_first">
+					<a href="javascript:;"><img src="img/edffswhgh.jpg" width="100%" height="auto" alt="First slide"></a>
+					<div id="banner_buy">
+						<p><a href="javascript:;">我要采购</a></p>
+						<p><a href="javascript:;">快速体验</a></p>
+					</div>
+				</div>
+				<div class="item">
+					<a href="javascript:;"><img src="img/rtrfdbvb.jpg" width="100%" height="auto" alt="Second slide"></a>
+				</div>
+				<div class="item">
+					<img src="img/9k=.jpg" width="100%" height="auto" alt="Third slide">
+				</div>
+				<div class="item">
+					<img src="img/ttredc.jpg" width="100%" height="auto" alt="forth slide">
+				</div>
+			</div>
+			
+			<a class="carousel-control left next_btn" href="#myCarousel" data-slide="prev" style="padding-top:13%;">
+			   <span style="font-size: 50px;">&lsaquo;</span>
+			</a>
+			<a class="carousel-control right next_btn" href="#myCarousel" data-slide="next" style="padding-top:13%;">
+			   <span style="font-size: 50px;">&rsaquo;</span>
+			</a>
+		  </div>
+		</div>
+		<!--轮播图结束-->
+		<!--企业简介-->
+		<div class="container">
+			<div class=" text-center" id="content_title">滚雷优势</div>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 col-xs-16" id="content_text">
+					滚雷进口车是中国最大的平行进口车采销平台，核心重点是为国内经销商提供车辆采购,物流配送，金融服务，零配件支持等一站式的车辆采购解決方案，提高您的供应链效率和成本效益。
+				</div>
+			</div>
+			<div class="row sub_title" >
+				<div class="col-md-2 col-xs-2 col-md-offset-1 text-center">
+					<p><span>15年</span></p>
+					<p>专注进口车</p>
+				</div>
+				<div class="col-md-4 col-xs-4 text-center">
+					<p><span>5大车源地</span></p>
+					<p>美国、中东、欧洲、加拿大、墨西哥</p>
+				</div>
+				<div class="col-md-4 col-xs-4 text-center">
+					<p><span>2000+国内经销商</span></p>
+					<p>覆盖31个省市</p>
+				</div>
+			</div>
+			<ul class="row list-unstyled text-center list_img">
+				<li class="col-md-2 col-xs-2">
+					<a href="javascript:;">
+						<img src="img/fdfe.jpg" alt="">
+					</a>
+				</li>
+				
+				<li class="col-md-2 col-xs-2">
+					<a href="javascript:;">
+						<img src="img/Z.jpg" alt="">
+					</a>
+				</li>
+				<li class="col-md-2 col-xs-2">
+					<a href="javascript:;">
+						<img src="img/u=824934501,3801473491&fm=58.jpg" alt="">
+					</a>
+				</li>
+				<li class="col-md-2 col-xs-2">
+					<a href="javascript:;">
+						<img src="img/hjjmnb.jpg" alt="" class="img-circle">
+					</a>
+				</li>
+				<li class="col-md-2 col-xs-2">
+					<a href="javascript:;">
+						<img src="img/u=2092277244,2189516697&fm=58.jpg" alt="">
+					</a>
+				</li>
+				
+					<li class="col-md-2 col-xs-2">
+					<a href="javascript:;">
+						<img src="img/u=53512955,2408364317&fm=58.jpg" alt="" class="img-rounded">
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!--物流系统-->
+		<div class="container_img">
+			
+			<img src="img/phoneyin.jpg" alt="" width="100%" height="400">
+			<div class="phone_img">
+				<a href="javascript:;">
+					<video src="img/《小黄人大眼萌》电视宣传片_超清.mp4" controls="controls" width="100%" height="100%"></video>
+				</a>
+			</div>	
+			<div class="container_title text-center">
+				<p><span>可视化物流系统</span></p>
+				<p class="h4">利用移动互联网技术，对车源实现智能化管理，国内经销商可实时查看海外仓库的车辆状态。</p>
+			</div>
+		</div>
+		<!--供应链服务-->
+		<div class="container-fluid">
+		  <div class="container">	
+			<div class="h1 text-center text-danger mb30">全球供应链服务</div>
+			<div class="row center-block">
+				<div class="col-md-3 col-xs-3 ml40 service" >
+					<p class="pr">
+						<a href="javascript:;"><img src="img/mngbffv.jpg" alt="" width="270" height="170"></a>
+						<div class="pa sub_ser text-center"><img src="img/supply_chain1 (1).jpg"></div>
+					</p>
+					<p class="h3 nav-tabs center-block text-center pb10 ml10">海外直采</p>
+					<p class="h5 text-center">提供全球超过二十多个汽车品牌， </p>
+					<p class="h5 text-center">一百多款车型，货源覆盖美国、加</p>
+					<p class="h5 text-center">拿大、墨西哥、中东、欧洲各国。</p>
+				</div>
+				<div class="col-md-3 col-xs-3 col-md-offset-1 text-center">
+					<p class="" id="moveImg">
+						<a href="javascript:;" class="active"><img src="img/kswax.jpg" alt=""></a>
+						<a href="javascript:;"><img src="img/supply_chain1 (1).jpg" alt=""></a>
+						<a href="javascript:;"><img src="img/supply_chain3.jpg" alt=""></a>
+					</p>
+					<p class="h3 nav-tabs center-block text-center pb10 ml10">仓储配送</p>
+					<p class="h5 ">拥有大型的现代化仓库，可提供  </p>
+					<p class="h5 ">一百多款车型，货源覆盖美国、加</p>
+					<p class="h5 ">拿大、墨西哥、中东、欧洲各国。</p>
+				</div>
+				<div class="col-md-3 col-xs-3 col-md-offset-1 text-center">
+					<p class="">
+						<a href="javascript:;"><img src="img/bnm.jpg" alt=""></a>
+					</p>
+					<p class="h3 nav-tabs center-block text-center pb10 ml10">报关报检</p>
+					<p class="h5">提供全球超过二十多个汽车品牌， </p>
+					<p class="h5 ">一百多款车型，货源覆盖美国、加</p>
+					<p class="h5">拿大、墨西哥、中东、欧洲各国。</p>
+				</div>
+			</div>
+		  </div>
+		</div>
+		<!--爆款车型-->
+		<div class="container table-bordered mt30">
+			<div class="row nav navbar-default nav-tabs p10">
+				<div class="col-md-3 col-xs-3 pr">
+					<a href="javascirpt:;" class="h4 text-danger pl10">
+						<span class="user"></span>
+						爆款车型
+					</a>
+					<div class="nav_icon" id="hotCar"></div>
+				</div>
+			</div>
+			<div class="row  nav nav-pills con_sunnav">
+				<div class="col-md-2 col-xs-2 text-center h5">
+					<a href="#sub_tabF" data-toggle='tab'>跑车系列</a>
+				</div>
+				<div class="col-md-2 col-xs-2 text-center h5">
+					<a href="#sub_tabS" data-toggle='tab'>轿车系列</a>
+				</div>
+				<div class="col-md-2 col-xs-2 text-center h5">
+					<a href="#sub_tabT" data-toggle='tab'>越野系列</a>
+				</div>
+			</div>
+			<!--选项卡-->
+			<div class="tab-content mt5" id="tabCon">
+				
+			  <div class="row tab-pane active" id="sub_tabF">
+				<div class="col-md-4 col-xs-4">
+					<p>
+						<div class="zoomybox">
+								<a class="zoom" href="img/1479088683778339391214061338679.jpg">
+									<img src="img/1479088683778339391214061338679.jpg" alt="" width="360" height="260">
+								</a>
+						</div>
+			
+					</p>
+					<p class="text-center h5"><a href="javascript:;">17款福特野马 2.3T 汽油 基本版</a></p>
+					<p class="text-center h5"><a href="javascript:;">惊爆价：<span class="text-danger">￥32.00万</span></a></p>
+					<p class="center-block h4 quick_buy"><a href="javascript:;">马上抢</a></p>
+				</div>
+				<div class="col-md-4 col-xs-4">
+					<p>
+						<div class="zoomybox">
+								<a class="zoom" href="img/race-red.jpg">
+									<img src="img/race-red.jpg" alt="" width="360" height="260">
+								</a>
+						</div>
+					
+					</p>
+					<p class="text-center h5"><a href="javascript:;">17款福特野马 2.3T 汽油 基本版</a></p>
+					<p class="text-center h5"><a href="javascript:;">惊爆价：<span class="text-danger">￥32.00万</span></a></p>
+					<p class="center-block h4 quick_buy"><a href="javascript:;">马上抢</a></p>
+				</div>
+				<div class="col-md-4 col-xs-4">
+					<p>
+						<div class="zoomybox">
+								<a class="zoom" href="img/1472033249490deep-impact-blue.jpg">
+									<img src="img/1472033249490deep-impact-blue.jpg" alt="" width="360" height="260">
+								</a>
+						    </div>
+					
+					</p>
+					<p class="text-center h5"><a href="javascript:;">17款福特野马 2.3T 汽油 基本版</a></p>
+					<p class="text-center h5"><a href="javascript:;">惊爆价：<span class="text-danger">￥32.00万</span></a></p>
+					<p class="center-block h4 quick_buy"><a href="javascript:;">马上抢</a></p>
+				</div>
+				<div class="col-md-4 col-xs-4">
+					<p>
+						<a href="javascript:;">
+							<img src="img/1472472713085magnetic.jpg" alt="" width="360" height="260">
+						</a>
+					</p>
+					<p class="text-center h5"><a href="javascript:;">17款福特野马 2.3T 汽油 基本版</a></p>
+					<p class="text-center h5"><a href="javascript:;">惊爆价：<span class="text-danger">￥32.00万</span></a></p>
+					<p class="center-block h4 quick_buy"><a href="javascript:;">马上抢</a></p>
+				</div>
+				<div class="col-md-4 col-xs-4">
+					<p>
+						<a href="javascript:;">
+							<img src="img/mosaic-black.jpg" alt="" width="360" height="260">
+						</a>
+					</p>
+					<p class="text-center h5"><a href="javascript:;">17款福特野马 2.3T 汽油 基本版</a></p>
+					<p class="text-center h5"><a href="javascript:;">惊爆价：<span class="text-danger">￥32.00万</span></a></p>
+					<p class="center-block h4 quick_buy"><a href="javascript:;">马上抢</a></p>
+				</div>
+				<div class="col-md-4 col-xs-4">
+					<p  id="passImg">
+						<a href="javascript:;">
+							<img src="img/mosaic-black.jpg" alt="" width="360" height="260">
+						</a>
+						<!--隐藏的图片-->
+						<div class="row" id="fadeImg">
+							<div class="col-md-3 col-xs-3 ">
+								<a href="javascript:;"><img src="img/1472028024085１.jpg" alt=""></a>
+							</div>
+							<div class="col-md-3 col-xs-3 col-md-offset-1">
+								<a href="javascript:;"><img src="img/1472191878765２.jpg" alt=""></a>
+							</div>
+							<div class="col-md-3 col-xs-3 col-md-offset-1">
+								<a href="javascript:;"><img src="img/1472191878865３.jpg" alt=""></a>
+							</div>
+					
+						</div>
+						<!--结束-->
+					</p>
+					<p class="text-center h5"><a href="javascript:;">17款福特野马 2.3T 汽油 基本版</a></p>
+					<p class="text-center h5"><a href="javascript:;">惊爆价：<span class="text-danger">￥32.00万</span></a></p>
+					<p class="center-block h4 quick_buy"><a href="javascript:;">马上抢</a></p>
+				</div>
+				
+			 </div>
+			<!--结束-->
+			 <div class="row tab-pane" id="sub_tabS">
+				<div class="col-md-4">
+					<p>
+						<a href="javascript:;">
+							<img src="img/1472472713085magnetic.jpg" alt="" width="360" height="260">
+						</a>
+					</p>
+					<p class="text-center h5"><a href="javascript:;">17款福特野马 2.3T 汽油 基本版</a></p>
+					<p class="text-center h5"><a href="javascript:;">惊爆价：<span class="text-danger">￥32.00万</span></a></p>
+					<p class="center-block h4 quick_buy"><a href="javascript:;">马上抢</a></p>
+				</div>
+				<div class="col-md-4">
+					<p>
+						<a href="javascript:;">
+							<img src="img/mosaic-black.jpg" alt="" width="360" height="260">
+						</a>
+					</p>
+					<p class="text-center h5"><a href="javascript:;">17款福特野马 2.3T 汽油 基本版</a></p>
+					<p class="text-center h5"><a href="javascript:;">惊爆价：<span class="text-danger">￥32.00万</span></a></p>
+					<p class="center-block h4 quick_buy"><a href="javascript:;">马上抢</a></p>
+				</div>
+				<div class="col-md-4">
+					<p  id="passImg">
+						<a href="javascript:;">
+							<img src="img/mosaic-black.jpg" alt="" width="360" height="260">
+						</a>
+						<!--隐藏的图片-->
+						<div class="row" id="fadeImg">
+							<div class="col-md-3 ">
+								<a href="javascript:;"><img src="img/1472028024085１.jpg" alt=""></a>
+							</div>
+							<div class="col-md-3 col-md-offset-1">
+								<a href="javascript:;"><img src="img/1472191878765２.jpg" alt=""></a>
+							</div>
+							<div class="col-md-3 col-md-offset-1">
+								<a href="javascript:;"><img src="img/1472191878865３.jpg" alt=""></a>
+							</div>
+					
+						</div>
+						<!--结束-->
+					</p>
+					<p class="text-center h5"><a href="javascript:;">17款福特野马 2.3T 汽油 基本版</a></p>
+					<p class="text-center h5"><a href="javascript:;">惊爆价：<span class="text-danger">￥32.00万</span></a></p>
+					<p class="center-block h4 quick_buy"><a href="javascript:;">马上抢</a></p>
+				</div>
+				
+				<div class="col-md-4">
+					<p>
+						<a href="javascript:;">
+							<img src="img/1479088683778339391214061338679.jpg" alt="" width="360" height="260">
+						</a>
+					</p>
+					<p class="text-center h5"><a href="javascript:;">17款福特野马 2.3T 汽油 基本版</a></p>
+					<p class="text-center h5"><a href="javascript:;">惊爆价：<span class="text-danger">￥32.00万</span></a></p>
+					<p class="center-block h4 quick_buy"><a href="javascript:;">马上抢</a></p>
+				</div>
+				<div class="col-md-4">
+					<p>
+						<a href="javascript:;">
+							<img src="img/race-red.jpg" alt="" width="360" height="260">
+						</a>
+					</p>
+					<p class="text-center h5"><a href="javascript:;">17款福特野马 2.3T 汽油 基本版</a></p>
+					<p class="text-center h5"><a href="javascript:;">惊爆价：<span class="text-danger">￥32.00万</span></a></p>
+					<p class="center-block h4 quick_buy"><a href="javascript:;">马上抢</a></p>
+				</div>
+				<div class="col-md-4">
+					<p>
+						<a href="javascript:;">
+							<img src="img/1472033249490deep-impact-blue.jpg" alt="" width="360" height="260">
+						</a>
+					</p>
+					<p class="text-center h5"><a href="javascript:;">17款福特野马 2.3T 汽油 基本版</a></p>
+					<p class="text-center h5"><a href="javascript:;">惊爆价：<span class="text-danger">￥32.00万</span></a></p>
+					<p class="center-block h4 quick_buy"><a href="javascript:;">马上抢</a></p>
+				</div>
+				
+			</div>
+			<!--结束-->
+			 <div class="row tab-pane" id="sub_tabT">
+				<div class="col-md-4">
+					<p>
+						<a href="javascript:;">
+							<img src="img/134.jpg" alt="" width="360" height="260">
+						</a>
+						
+					</p>
+					<p class="text-center h5"><a href="javascript:;">17款福特野马 2.3T 汽油 基本版</a></p>
+					<p class="text-center h5"><a href="javascript:;">惊爆价：<span class="text-danger">￥32.00万</span></a></p>
+					<p class="center-block h4 quick_buy"><a href="javascript:;">马上抢</a></p>
+				</div>
+				<div class="col-md-4">
+					<p>
+						<a href="javascript:;">
+							<img src="img/1479091763204147203338026789.jpg" alt="" width="360" height="260">
+						</a>
+					</p>
+					<p class="text-center h5"><a href="javascript:;">17款福特野马 2.3T 汽油 基本版</a></p>
+					<p class="text-center h5"><a href="javascript:;">惊爆价：<span class="text-danger">￥32.00万</span></a></p>
+					<p class="center-block h4 quick_buy"><a href="javascript:;">马上抢</a></p>
+				</div>
+				<div class="col-md-4">
+					<p>
+						<a href="javascript:;">
+							<img src="img/1478497262480365009130705018138.jpg" alt="" width="360" height="260">
+						</a>
+					</p>
+					<p class="text-center h5"><a href="javascript:;">17款福特野马 2.3T 汽油 基本版</a></p>
+					<p class="text-center h5"><a href="javascript:;">惊爆价：<span class="text-danger">￥32.00万</span></a></p>
+					<p class="center-block h4 quick_buy"><a href="javascript:;">马上抢</a></p>
+				</div>
+
+			</div>
+			<!--结束-->
+			
+			<!--结束-->
+			 <div class="row dis_none" id="showList">
+				<div class="col-md-4">
+					<p>
+						<a href="javascript:;">
+							<img src="img/134.jpg" alt="" width="360" height="260">
+						</a>
+						
+					</p>
+					<p class="text-center h5"><a href="javascript:;">17款福特野马 2.3T 汽油 基本版</a></p>
+					<p class="text-center h5"><a href="javascript:;">惊爆价：<span class="text-danger">￥32.00万</span></a></p>
+					<p class="center-block h4 quick_buy"><a href="javascript:;">马上抢</a></p>
+				</div>
+				<div class="col-md-4">
+					<p>
+						<a href="javascript:;">
+							<img src="img/1479091763204147203338026789.jpg" alt="" width="360" height="260">
+						</a>
+					</p>
+					<p class="text-center h5"><a href="javascript:;">17款福特野马 2.3T 汽油 基本版</a></p>
+					<p class="text-center h5"><a href="javascript:;">惊爆价：<span class="text-danger">￥32.00万</span></a></p>
+					<p class="center-block h4 quick_buy"><a href="javascript:;">马上抢</a></p>
+				</div>
+				<div class="col-md-4">
+					<p>
+						<a href="javascript:;">
+							<img src="img/1478497262480365009130705018138.jpg" alt="" width="360" height="260">
+						</a>
+					</p>
+					<p class="text-center h5"><a href="javascript:;">17款福特野马 2.3T 汽油 基本版</a></p>
+					<p class="text-center h5"><a href="javascript:;">惊爆价：<span class="text-danger">￥32.00万</span></a></p>
+					<p class="center-block h4 quick_buy"><a href="javascript:;">马上抢</a></p>
+				</div>
+
+			</div>
+			<!--结束-->
+		  <div class="row text-center">
+			  <div class="look_more pt25 pb20 mt20 navbar-default">
+			  	<a href="javascript:;" class="btn-lg btn-danger">
+			  		查看更多
+			  	</a>
+			  </div>
+		  </div> 
+			
+		  </div>
+		  
+		</div>
+		<!--footer-->
+		<div class="container-fluid mt30 pt15" id="foot_bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 text-center">
+						<h4><a href="javascript:;">使用帮助</a></h4>
+						<p><a href="javascript:;">关于我们</a></p>
+						<p><a href="javascript:;">平台优势</a></p>
+						<p><a href="javascript:;">采购流程</a></p>
+						<p><a href="javascript:;">诚聘英才</a></p>
+						
+					</div>
+					<div class="col-md-2 text-center">
+						<h4><a href="javascript:;">商务合作</a></h4>
+						<p><a href="javascript:;">海外合作</a></p>
+						<p><a href="javascript:;">经销商合作</a></p>
+					</div>
+					<div class="col-md-3 text-center">
+						<h4><a href="javascript:;">滚雷进口车官方微信</a></h4>
+						<p><a href="javascript:;"><img src="img/icon_weixin.jpg" alt=""></a></p>
+					</div>
+					<div class="col-md-2 text-center">
+						<h4><a href="javascript:;">关注我们</a>
+							
+						</h4>
+						<div class="row  text-center mt10">
+						 
+						  <div class="col-md-4 col-md-offset-2">
+							<p>
+							  <a href="javascript:;"><img src="img/list_1.gif" class="img-circle"></a>
+						    </p>
+						  </div>
+						  <div class="col-md-4">
+							<p>
+							  <a href="javascript:;"><img src="img/list_2.gif" class="img-circle"></a>
+						    </p>
+						  </div>
+		
+						</div>
+						<div class="row  text-center mt10">
+						 
+						  <div class="col-md-4 col-md-offset-2">
+							<p>
+							  <a href="javascript:;"><img src="img/2156f4dfcc399f2.jpg" width="45" height="35" class="img-circle"></a>
+						    </p>
+						  </div>
+						  <div class="col-md-4">
+							<p>
+							  <a href="javascript:;"><img src="img/list_4.gif" width="50" height="35" class="img-circle"></a>
+						    </p>
+						  </div>
+		
+						</div>
+						
+		
+					
+
+					</div>
+					<div class="col-md-3 text-center">
+						<h4><a href="javascript:;">联系我们</a>
+							<span class=""><img src="img/com_icon_phone.gif"></span>
+						</h4>
+						<p class="mt10">
+							<img src="img/guoqi1.png" class="mb5 mr10">
+							<span class="h4">400-883-8787</span>
+						</p>
+						<p class="mt10 ">
+							<img src="img/meiguo1.png" class="mb5 mr10">
+							<span class="h4">400-883-8787</span>
+						</p>
+						<p class="mt10 ">
+						
+							<span class="h5">地址：上海市闸北区吴中路1329号<br>天河大厦A座</span>
+						</p>
+						
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<!--右侧锚点-->
+		<div class="anchor dis_none">
+			<ul>
+				<li class="pr" id="listF">
+					<div class="pa smallBox"></div>
+					<div class="phoneCode pa dis_none">
+						<img src="img/indexerweima.png" alt="">
+					</div>
+				</li>
+				<li class="pr" id="listS">
+					<div class="pa smallBoxo">86-77888966</div>
+				</li>
+				<li id="top">
+					<a href="javascript:;"><img src="img/125.png" width="60" height="60"></a>
+				</li>
+			</ul>
+		</div>
+		<!---->
+		
+		<script type="text/javascript" src="js/jquery.zoomy0.5.min.js"></script>
+		<script src="js/indexF.js"></script>
+	</body>
+</html>
